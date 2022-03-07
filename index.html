@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+    <!-- Metaetiquetas -->
+    <title>Pastelería Primavera Cakes</title>
+    <meta name="description" content="Practica desarrollada para Launch X">
+    <link rel="canonical" href="https://EslebanPerez.github.io/Pasteleria/">
+    <!-- <link rel="favicon" href="ruta-abosoluta/assets/favicon.ico" type="image/x-icon"> -->
+    <link rel="icon" type="image/svg+xml" href="https://EslebanPerez.github.io/Pasteleria//assets/favicon.svg">
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/favicon.ico">
+    <meta property="og:description" name="twitter:description" content="Practica desarrollada para Launch X">
+    <meta name="theme-color" content="#ffc0d1">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:title" name="twitter:title" content="Pastelería Primavera's Cake">
+    <meta property="og:image" name="twitter:image" content="https://EslebanPerez.github.io/Pasteleria//assets/hero-image-home.jpg">
+    <meta property="og:url" name="twitter:ul" content="https://EslebanPerez.github.io/Pasteleria/">
+
+
+
+
+
+</head>
+<body>
+    <!-- Etiquetas semanticas -->
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo.svg" alt="Logo" > Primavera's cake</a>
+            </div>
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+                <svg class="none"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+            </button>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#testimonios">Clientes</a>
+                <a href="#contacto">Realizar pedido</a>
+            </nav>
+        </section>
+    </header>
+     <section id="inicio" class="home"> <!--Id en español -->
+        <article class="hero-image" style="--hero-image:url('assets/hero-image-home-cake.jpg'); --hero-attachment:fixed;">
+            <aside class="hero-image-opacity" style="--hero-opacity-color: var(--second-alpha-color);">
+                <div class="hero-image-content">
+                    <h2 class="hero-image-title" style="--hero-text-color: var(--white-color);">
+                        ¡Exquisitos pasteles Primavera,<br> hasta la puerta de tu casa!
+                    </h2>
+                    <h2 class="hero-image-subtitle" style="--hero-text-color: var(--white-color);">con solo unos clics</h2>
+                    <a class="btn" href="#contacto" >¡HAZ TU PEDIDO!</a>
+                </div>
+            </aside>
+
+        </article>
+    </section>
+    <section id="acerca" class="about section container full-lg-screen"> 
+        <article class="text-lg-right">
+            <aside class="text-center text-lg-right">
+                <h1>Primavera's Cake</h1>
+                <h5>Sucursal Tlaxcala</h5>
+            </aside>
+            <p>En Primavera's cake sabemos de lo importante y especial que es tu evento. Es por eso que nos esforzamos para ofrecerte pasteles de fondant y cupcakes increíbles, deliciosos y originales. </p>
+            <p>Ponemos especial cuidado en los detalles para asegurar que nuestros pasteles estén a la altura de tu evento. Nuestros pasteles de fondant dejarán un sello personal en tu celebración que quedará en la memoria de tus invitados ¡para siempre! </p>
+            <p>Cada pastel es único y especial, siempre hecho individualmente para tu evento, lo que nos permite realizar cualquier idea y diseño para que tu pastel sea ¡espectacular! ¡Sólo déjanos saber lo que necesitas! </p>
+            <p>¡En Pasteles Increíbles podrás encontrar una deliciosa sorpresa para todo tipo de evento! </p>
+                
+            <div class="text-center text-lg-left">
+                <a class="btn" href="#contacto"> Realiza tu pedido</a>
+            </div>
+        </article>
+        <article>
+            <img class= "container" src="assets/cake-10.jpg" alt="NombreImagen">
+        </article>
+     
+    </section>
+    <section id="servicios" class="services section bg-gray-light "> 
+        <div class="container full-lg-screen">
+            <h2 class="section-title">
+                Pasteles para toda ocación
+            </h2>
+            <article class="service-card">
+                <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_55491_2167)">
+                    <path d="M18.9161 12.9654C18.983 12.4926 19.235 12.0657 19.6166 11.7786C19.9983 11.4915 20.4783 11.3678 20.9511 11.4346C23.6093 11.8128 25.7056 13.9091 26.0874 16.5636C26.121 16.7978 26.1081 17.0362 26.0495 17.2654C25.991 17.4946 25.8878 17.7099 25.746 17.8993C25.6042 18.0886 25.4265 18.2481 25.223 18.3687C25.0196 18.4893 24.7943 18.5687 24.5602 18.6023C24.3261 18.6359 24.0876 18.623 23.8584 18.5644C23.6293 18.5059 23.4139 18.4027 23.2246 18.2609C23.0353 18.1191 22.8758 17.9414 22.7551 17.7379C22.6345 17.5345 22.5551 17.3092 22.5215 17.0751C22.445 16.5521 22.2017 16.0678 21.828 15.694C21.4542 15.3202 20.9699 15.077 20.4469 15.0004C19.9741 14.9335 19.5472 14.6815 19.2601 14.2999C18.973 13.9183 18.8493 13.4382 18.9161 12.9654V12.9654ZM8.09253 16.3295C8.09253 9.55804 13.8195 4.21289 20.699 4.21289C27.5785 4.21289 33.3055 9.55804 33.3055 16.3295C33.3055 20.7778 31.6486 24.8839 29.329 27.8843C27.4921 30.2615 25.0609 32.1705 22.4999 32.8008V34.4684C22.4999 35.2609 23.1483 35.9092 23.9407 35.9092H28.2629C29.6003 35.9092 30.8829 36.4405 31.8286 37.3861C32.7742 38.3318 33.3055 39.6144 33.3055 40.9518V42.0323C33.3055 42.51 33.1158 42.968 32.778 43.3058C32.4403 43.6435 31.9822 43.8333 31.5046 43.8333C31.0269 43.8333 30.5689 43.6435 30.2311 43.3058C29.8934 42.968 29.7036 42.51 29.7036 42.0323V40.9518C29.7036 40.5697 29.5518 40.2032 29.2817 39.933C29.0115 39.6628 28.645 39.511 28.2629 39.511H23.9407C22.6033 39.511 21.3207 38.9798 20.375 38.0341C19.4294 37.0884 18.8981 35.8058 18.8981 34.4684V32.8008C16.3408 32.1705 13.9059 30.2687 12.069 27.8915C9.51722 24.5747 8.12069 20.5142 8.09253 16.3295V16.3295ZM20.699 7.81474C15.6456 7.81474 11.6944 11.7047 11.6944 16.3295C11.6944 19.9062 13.0379 23.2487 14.9216 25.6907C16.8594 28.1976 19.0926 29.4259 20.699 29.4259C22.3018 29.4259 24.5386 28.1976 26.4764 25.6835C28.5404 22.9992 29.6733 19.7154 29.7036 16.3295C29.7036 11.7047 25.7524 7.81474 20.699 7.81474Z"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_55491_2167">
+                    <rect width="43.2222" height="43.2222" fill="white" transform="translate(0.888916 0.611084)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <h3>
+                    Cumpleaños
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aspernatur omnis error ex consequuntur.               
+                </p>
+            </article>
+            <article class="service-card">
+                <svg width="45" height="45" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0.000187796C10.355 0.000187796 9 1.35519 9 3.00019L9.016 2.83619L8.031 8.74619L6.141 13.9182C6.105 13.9652 6.062 14.0002 6 14.0002H5V13.0002H0V26.0002H5V23.0002H8.926C10.57 23.0002 12.051 22.2032 13 20.9652C13.95 22.2032 15.43 23.0002 17.074 23.0002H21V26.0002H26V13.0002H21V14.0002H20C19.937 14.0002 19.895 13.9652 19.86 13.9182L17.969 8.74619L16.984 2.83619L17 3.00019C17 1.35519 15.645 0.000187796 14 0.000187796C13.66 0.000187796 13.312 0.0661878 13 0.227188C12.6893 0.073448 12.3466 -0.00435118 12 0.000187796V0.000187796ZM11.965 2.01619C11.985 2.16019 12 2.48819 12 3.00019V18.4382C11.869 19.1577 11.4895 19.8084 10.9276 20.2767C10.3658 20.7449 9.65738 21.001 8.926 21.0002H5V16.0002H6C6.38682 15.9996 6.76658 15.8966 7.10067 15.7016C7.43476 15.5067 7.71124 15.2267 7.902 14.8902L7.942 14.8162L9.969 9.25419L11 3.08219V3.00019C11 2.45019 11.422 2.03519 11.965 2.01619ZM14.035 2.01619C14.578 2.03619 15 2.44919 15 3.00019V3.08219L16.031 9.25419L18.059 14.8162L18.098 14.8912C18.289 15.2274 18.5655 15.5072 18.8996 15.7019C19.2336 15.8967 19.6133 15.9996 20 16.0002H21V21.0002H17.074C16.3425 21.001 15.6339 20.7447 15.0721 20.2763C14.5102 19.8078 14.1308 19.1569 14 18.4372V3.00019C14 2.48819 14.016 2.16019 14.035 2.01619ZM2 15.0002H3V24.0002H2V15.0002ZM23 15.0002H24V24.0002H23V15.0002Z"/>
+                    </svg>
+                    
+                <h3>
+                    Bautizo y primera comunión
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aspernatur omnis error ex consequuntur.               
+                </p>
+            </article>
+            <article class="service-card">
+                <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_55468_683)">
+                    <path d="M4.74095 7.34345L5.2787 7.47008V12.4086C4.68777 12.7589 4.26568 13.3836 4.26568 14.118C4.26568 14.825 4.65611 15.4164 5.20441 15.7853L3.8858 21.0403C3.73806 21.6228 4.06561 22.2222 4.52991 22.2222H8.05438C8.51868 22.2222 8.8458 21.6207 8.69807 21.1163L7.37903 15.7895C7.92775 15.4181 8.31776 14.8271 8.31776 14.118C8.31776 13.3794 7.89567 12.7572 7.30474 12.4086V7.96646L11.6945 9.02169L11.6946 14.118C11.6946 20.0906 16.5275 24.9236 22.5001 24.9236C28.4727 24.9236 33.2297 20.0906 33.2297 14.118L33.3056 9.02085L40.249 7.34345C41.7897 6.97412 41.7897 5.06415 40.249 4.68427L24.1758 0.801025C23.0783 0.54777 21.9285 0.54777 20.8303 0.801025L4.74011 4.68427C3.21045 5.05402 3.21045 6.97454 4.74095 7.34345V7.34345ZM31.212 27.0172L22.5001 35.7291L13.7881 27.0172C7.8847 28.8997 3.59033 34.3784 3.59033 40.904C3.59033 42.5248 4.90135 43.8333 6.51712 43.8333H38.4864C40.1013 43.8333 41.4098 42.5248 41.4098 40.904C41.4098 34.3784 37.1129 28.8997 31.212 27.0172Z" />
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_55468_683">
+                    <rect width="43.2222" height="43.2222" fill="white" transform="translate(0.888672 0.611084)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <h3>
+                    Graduaciones
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aspernatur omnis error ex consequuntur.               
+                </p>
+            </article>
+            <article class="service-card">
+                <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.17781 15.4134L9.4938 35.1065H35.5064L37.8224 15.4134L30.6006 20.2272L22.5001 8.8868L14.3995 20.2272L7.17781 15.4134ZM5.93337 10.2537L13.4955 15.2963L21.0341 4.74287C21.2007 4.50941 21.4207 4.31912 21.6756 4.18783C21.9306 4.05653 22.2133 3.98804 22.5001 3.98804C22.7869 3.98804 23.0695 4.05653 23.3245 4.18783C23.5795 4.31912 23.7994 4.50941 23.966 4.74287L31.5047 15.2963L39.0686 10.2537C39.3549 10.0632 39.6897 9.95872 40.0334 9.95247C40.3772 9.94622 40.7156 10.0385 41.0086 10.2184C41.3016 10.3984 41.537 10.6584 41.6869 10.9678C41.8368 11.2773 41.895 11.6231 41.8546 11.9646L38.8957 37.1181C38.8441 37.5562 38.6335 37.9601 38.3039 38.2532C37.9742 38.5463 37.5485 38.7083 37.1074 38.7083H7.89277C7.45167 38.7083 7.02592 38.5463 6.69629 38.2532C6.36666 37.9601 6.15606 37.5562 6.10445 37.1181L3.14553 11.9628C3.10555 11.6215 3.16405 11.2759 3.31414 10.9667C3.46422 10.6576 3.69961 10.3978 3.99253 10.2182C4.28544 10.0385 4.62366 9.94633 4.96724 9.95263C5.31082 9.95893 5.64543 10.0634 5.93156 10.2537H5.93337ZM22.5001 27.9028C21.5448 27.9028 20.6287 27.5233 19.9532 26.8478C19.2777 26.1723 18.8982 25.2562 18.8982 24.3009C18.8982 23.3457 19.2777 22.4295 19.9532 21.754C20.6287 21.0786 21.5448 20.6991 22.5001 20.6991C23.4554 20.6991 24.3715 21.0786 25.047 21.754C25.7225 22.4295 26.1019 23.3457 26.1019 24.3009C26.1019 25.2562 25.7225 26.1723 25.047 26.8478C24.3715 27.5233 23.4554 27.9028 22.5001 27.9028Z"/>
+                    </svg>
+                <h3>   
+                    XV años
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aspernatur omnis error ex consequuntur.               
+                </p>
+            </article>
+            <article class="service-card">
+                <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_55468_662)">
+                    <path d="M18.9157 1.04529C16.2342 1.04529 14.3441 2.94374 14.3441 5.61687C14.3441 8.5593 16.6681 10.4727 18.9157 12.318C19.6504 12.9214 20.3686 13.5282 21.0452 14.1882H9.20064C7.01293 14.1882 5.19593 15.6029 4.52433 17.5645C4.52433 17.5645 4.86345 20.8377 10.0318 20.8377C14.8362 20.8377 15.014 18.394 15.019 18.2926C15.0302 18.0805 15.1229 17.8809 15.2778 17.7356C15.4327 17.5903 15.6378 17.5105 15.8502 17.513C16.0684 17.52 16.2758 17.6099 16.4301 17.7642C16.5845 17.9186 16.6743 18.1259 16.6814 18.3442C16.6881 18.4289 16.9225 20.8377 22.4998 20.8377C28.0771 20.8377 28.3098 18.394 28.3182 18.2926C28.3364 18.0739 28.4384 17.8707 28.6029 17.7255C28.7674 17.5802 28.9816 17.5041 29.2009 17.513C29.4137 17.522 29.6145 17.6141 29.7603 17.7695C29.906 17.9249 29.9851 18.1312 29.9806 18.3442C29.9839 18.4323 30.1302 20.8377 34.9677 20.8377C40.2924 20.8377 40.4752 17.5645 40.4752 17.5645C39.8036 15.6045 37.9833 14.1882 35.7989 14.1882H23.9544C24.6368 13.5343 25.3474 12.9103 26.0839 12.318C28.3298 10.4727 30.6555 8.55764 30.6555 5.61687C30.6555 2.94374 28.767 1.04529 26.0839 1.04529C24.5379 1.04529 23.2296 2.15244 22.4998 2.91548C21.7733 2.15078 20.46 1.04529 18.9157 1.04529V1.04529ZM15.9001 20.3706C15.0888 21.4279 13.4264 22.5001 10.0318 22.5001C6.69874 22.5001 5.04299 21.4611 4.21346 20.4221V27.4873H40.7861V20.4221C39.9566 21.4528 38.2958 22.5001 34.9677 22.5001C31.5598 22.5001 29.9074 21.4246 29.0978 20.3706C28.1769 21.4229 26.2984 22.5001 22.4998 22.5001C18.6879 22.5001 16.8177 21.4279 15.9017 20.3706H15.9001ZM5.87585 29.1497C3.68814 29.1497 1.87115 30.5644 1.19954 32.526C1.2012 32.526 1.53867 35.7993 6.70705 35.7993C11.5114 35.7993 13.3516 33.3556 13.3566 33.2542C13.3678 33.042 13.4605 32.8425 13.6154 32.6971C13.7703 32.5518 13.9754 32.4721 14.1878 32.4745C14.406 32.4816 14.6134 32.5714 14.7677 32.7258C14.9221 32.8801 15.0119 33.0875 15.019 33.3057C15.0257 33.3905 16.9225 35.7993 22.4998 35.7993C28.0771 35.7993 29.9722 33.3556 29.9806 33.2542C29.9988 33.0355 30.1008 32.8323 30.2653 32.687C30.4298 32.5417 30.644 32.4656 30.8633 32.4745C31.0761 32.4836 31.2769 32.5757 31.4227 32.731C31.5684 32.8864 31.6475 33.0927 31.6429 33.3057C31.6463 33.3938 33.455 35.7993 38.2925 35.7993C43.6172 35.7993 43.8 32.526 43.8 32.526C43.1284 30.5661 41.3081 29.1497 39.1237 29.1497H5.87585ZM14.2394 35.3321C13.4264 36.3894 10.1017 37.4617 6.70705 37.4617C3.37395 37.4617 1.71821 36.4227 0.888672 35.3837V40.7865C0.888672 43.5394 3.12293 44.1112 5.87585 44.1112H39.1237C41.8766 44.1112 44.1109 43.5394 44.1109 40.7865V35.3837C43.2814 36.4144 41.6206 37.4617 38.2925 37.4617C34.8846 37.4617 31.5698 36.3861 30.7602 35.3321C29.8392 36.3844 26.2984 37.4617 22.4998 37.4617C18.6879 37.4617 15.1553 36.3894 14.2394 35.3321Z" />
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_55468_662">
+                    <rect width="43.2222" height="43.2222" fill="white" transform="translate(0.888672 0.888916)"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                <h3>
+                     Bodas
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aspernatur omnis error ex consequuntur.               
+                </p>
+            </article>
+            <article class="service-card">
+                <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.5949 11.6944C14.3418 11.6944 15.9626 12.5949 17.2953 14.1797C18.2858 13.1172 19.4564 12.3428 20.6991 11.9646V8.09257C20.6991 7.1373 21.0785 6.22116 21.754 5.54568C22.4295 4.8702 23.3456 4.49072 24.3009 4.49072H27.9028V8.09257H24.3009V11.9646C25.5435 12.3428 26.7141 13.1172 27.7047 14.1797C29.0373 12.5949 30.6582 11.6944 32.4051 11.6944C36.9074 11.6944 40.5092 17.7455 40.5092 25.2014C40.5092 32.6572 36.9074 38.7083 32.4051 38.7083C30.6582 38.7083 29.0373 37.8079 27.7047 36.223C26.2459 37.8079 24.445 38.7083 22.5 38.7083C20.555 38.7083 18.7541 37.8079 17.2953 36.223C15.9626 37.8079 14.3418 38.7083 12.5949 38.7083C8.09257 38.7083 4.49072 32.6572 4.49072 25.2014C4.49072 17.7455 8.09257 11.6944 12.5949 11.6944ZM17.0972 18.8981L14.846 22.9502H19.3484L17.0972 18.8981ZM27.9028 18.8981L25.6516 22.9502H30.1539L27.9028 18.8981ZM15.2963 31.5046H18.8981L20.6991 29.7037L22.5 31.5046H26.1018L27.9028 29.7037L29.7037 31.5046L32.4051 26.1018L25.9578 27.2184L24.3009 29.7037L22.5 27.9028H18.8981L17.0972 29.7037L15.2963 27.9028L11.6944 26.1018L15.2963 31.5046Z"/>
+                    </svg>
+                <h3>
+                Eventos especiales
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aspernatur omnis error ex consequuntur.               
+                </p>
+            </article>
+
+        </div>
+    </section>
+    <section id="catalogo" class="catalog section"> 
+        <div class="container"> 
+            <h2 class="section-title">Mis trabajos</h2>
+           <a href="#trabajo-1" class="catalog-card">
+               <img src="assets/cake-1.jpg" alt="Trabajo 1">
+               <aside class="catalog-card-info">
+                   <div>
+                       <h3>Proyecto 1</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus vero fugit itaque at facilis a alias nobis reiciendis, dicta delectus perferendis quos doloremque minus ad impedit saepe! Facere, repudiandae!</p>
+                   </div>
+               </aside>
+           </a>
+           <a href="#trabajo-2" class="catalog-card">
+            <img src="assets/cake-2.jpg" alt="Trabajo 2">
+            <aside class="catalog-card-info">
+                <div>
+                    <h3>Proyecto 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus vero fugit itaque at facilis a alias nobis reiciendis, dicta delectus perferendis quos doloremque minus ad impedit saepe! Facere, repudiandae!</p>
+                </div>
+            </aside>
+            </a>
+            <a href="#trabajo-3" class="catalog-card">
+                <img src="assets/cake-3.jpg" alt="Trabajo 3">
+                <aside class="catalog-card-info">
+                    <div>
+                        <h3>Proyecto 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus vero fugit itaque at facilis a alias nobis reiciendis, dicta delectus perferendis quos doloremque minus ad impedit saepe! Facere, repudiandae!</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-4" class="catalog-card">
+                <img src="assets/cake-4.jpg" alt="Trabajo 4">
+                <aside class="catalog-card-info">
+                    <div>
+                        <h3>Proyecto 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus vero fugit itaque at facilis a alias nobis reiciendis, dicta delectus perferendis quos doloremque minus ad impedit saepe! Facere, repudiandae!</p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-5" class="catalog-card">
+            <img src="assets/cake-7.jpg" alt="Trabajo 5">
+            <aside class="catalog-card-info">
+                <div>
+                    <h3>Proyecto 5</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus vero fugit itaque at facilis a alias nobis reiciendis, dicta delectus perferendis quos doloremque minus ad impedit saepe! Facere, repudiandae!</p>
+                </div>
+            </aside>
+             </a>
+            <a href="#trabajo-6" class="catalog-card">
+            <img src="assets/cake-6.jpg" alt="Trabajo 6">
+            <aside class="catalog-card-info">
+                <div>
+                    <h3>Proyecto 6</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic necessitatibus vero fugit itaque at facilis a alias nobis reiciendis, dicta delectus perferendis quos doloremque minus ad impedit saepe! Facere, repudiandae!</p>
+                </div>
+            </aside>
+            </a>
+        </div>
+    </section>
+    <article class="modal" id="trabajo-1">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg></a>
+                <article class="catalog-modal">
+                    <img src="assets/cake-1.jpg" alt="Trabajo-1">
+                    <div class="catalog-info">
+                        <h3>Nombre del proyecto 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quod facilis porro molestias voluptates harum! Perferendis dignissimos quas sunt perspiciatis ab possimus, accusamus optio eum iusto excepturi quia laboriosam temporibus.</p>
+                        <aside class="catalog-details">
+                            <small><b>Tamaño</b></small>
+                            <small>Grande 3 pisos</small>
+                            <small><b>Sabor</b></small>
+                            <small>Vainilla</small>
+                            <small><b>Relleno </b></small>
+                            <small>Queso con Zarzamora</small>
+                            <small><b>Precio</b></small>
+                            <small>$5,000</small>
+                        </aside>
+                    </div>
+                </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-2">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg></a>
+                <article class="catalog-modal">
+                    <img src="assets/cake-2.jpg" alt="Trabajo-2">
+                    <div class="catalog-info">
+                        <h3>Nombre del proyecto 2</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quod facilis porro molestias voluptates harum! Perferendis dignissimos quas sunt perspiciatis ab possimus, accusamus optio eum iusto excepturi quia laboriosam temporibus.</p>
+                        <aside class="catalog-details">
+                            <small><b>Tamaño</b></small>
+                            <small>Grande 3 pisos</small>
+                            <small><b>Sabor</b></small>
+                            <small>Vainilla</small>
+                            <small><b>Relleno </b></small>
+                            <small>Queso con Zarzamora</small>
+                            <small><b>Precio</b></small>
+                            <small>$5,000</small>
+                        </aside>
+                    </div>
+                </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-3">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg></a>
+                <article class="catalog-modal">
+                    <img src="assets/cake-3.jpg" alt="Trabajo-3">
+                    <div class="catalog-info">
+                        <h3>Nombre del proyecto 3</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quod facilis porro molestias voluptates harum! Perferendis dignissimos quas sunt perspiciatis ab possimus, accusamus optio eum iusto excepturi quia laboriosam temporibus.</p>
+                        <aside class="catalog-details">
+                            <small><b>Tamaño</b></small>
+                            <small>Grande 3 pisos</small>
+                            <small><b>Sabor</b></small>
+                            <small>Vainilla</small>
+                            <small><b>Relleno </b></small>
+                            <small>Queso con Zarzamora</small>
+                            <small><b>Precio</b></small>
+                            <small>$5,000</small>
+                        </aside>
+                    </div>
+                </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-4">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg></a>
+                <article class="catalog-modal">
+                    <img src="assets/cake-4.jpg" alt="Trabajo-4">
+                    <div class="catalog-info">
+                        <h3>Nombre del proyecto 4</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quod facilis porro molestias voluptates harum! Perferendis dignissimos quas sunt perspiciatis ab possimus, accusamus optio eum iusto excepturi quia laboriosam temporibus.</p>
+                        <aside class="catalog-details">
+                            <small><b>Tamaño</b></small>
+                            <small>Grande 3 pisos</small>
+                            <small><b>Sabor</b></small>
+                            <small>Vainilla</small>
+                            <small><b>Relleno </b></small>
+                            <small>Queso con Zarzamora</small>
+                            <small><b>Precio</b></small>
+                            <small>$5,000</small>
+                        </aside>
+                    </div>
+                </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-5">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg></a>
+                <article class="catalog-modal">
+                    <img src="assets/cake-7.jpg" alt="Trabajo-5">
+                    <div class="catalog-info">
+                        <h3>Nombre del proyecto 5</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quod facilis porro molestias voluptates harum! Perferendis dignissimos quas sunt perspiciatis ab possimus, accusamus optio eum iusto excepturi quia laboriosam temporibus.</p>
+                        <aside class="catalog-details">
+                            <small><b>Tamaño</b></small>
+                            <small>Grande 3 pisos</small>
+                            <small><b>Sabor</b></small>
+                            <small>Vainilla</small>
+                            <small><b>Relleno </b></small>
+                            <small>Queso con Zarzamora</small>
+                            <small><b>Precio</b></small>
+                            <small>$5,000</small>
+                        </aside>
+                    </div>
+                </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-6">
+        <div class="modal-content">
+            <a href="#cerrar" class="modal-close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg></a>
+                <article class="catalog-modal">
+                    <img src="assets/cake-6.jpg" alt="Trabajo-6">
+                    <div class="catalog-info">
+                        <h3>Pastel de boda</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quod facilis porro molestias voluptates harum! Perferendis dignissimos quas sunt perspiciatis ab possimus, accusamus optio eum iusto excepturi quia laboriosam temporibus.</p>
+                        
+                        <aside class="catalog-details">
+                            
+                            <small><b>Tamaño</b></small>
+                            <small>Grande 3 pisos</small>
+                            <small><b>Sabor</b></small>
+                            <small>Vainilla</small>
+                            <small><b>Relleno </b></small>
+                            <small>Queso con Zarzamora</small>
+                            <small><b>Precio</b></small>
+                            <small>$5,000</small>
+
+                            
+                        </aside>
+                    </div>
+                </article>
+        </div>
+    </article>
+    
+    <section id="testimonios" class="testimonials"> 
+        <article class="hero-image" style="--hero-image:url('assets/hero-image-customers.jpg'); --hero-attachment:scroll;">
+            <aside class="hero-image-opacity" style="--hero-opacity-color: var(--second-alpha-color);">
+                <div class="hero-image-content">
+                    <div class="container">
+                        <h2 class="section-title">Mis Clientes dicen</h2>
+                        <article class="carousel" style="--carousel-bg-color: var(--white-alpha-color);">
+                            <input type="radio" name="slides" id="slide-1" checked>
+                            <input type="radio" name="slides" id="slide-2">
+                            <input type="radio" name="slides" id="slide-3">
+                            <input type="radio" name="slides" id="slide-4">
+                           
+                           <ul class="slides">
+                               <li class="slide">
+                                   <img class="avatar" src="assets/customer-1.jpg" alt="cliente 1">
+                                   <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore, eaque et voluptates dolorum blanditiis officia, aliquid perferendis dolores nam quidem sint sapiente quam voluptatum nisi aspernatur nobis animi! Libero."</blockquote>
+                                   <h3 class="text-first-color">Nombre del cliente 1</h3>
+                                   <h6>Puesto del cliente</h6>
+                               </li>
+                               <li class="slide">
+                                    <img class="avatar" src="assets/customer-2.jpg" alt="cliente 2">
+                                    <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore, eaque et voluptates dolorum blanditiis officia, aliquid perferendis dolores nam quidem sint sapiente quam voluptatum nisi aspernatur nobis animi! Libero."</blockquote>
+                                    <h3 class="text-first-color">Nombre del cliente 2</h3>
+                                    <h6>Puesto del cliente</h6>
+                               </li>
+                               <li class="slide">
+                                    <img class="avatar" src="assets/customer-1.jpg" alt="cliente 3">
+                                    <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore, eaque et voluptates dolorum blanditiis officia, aliquid perferendis dolores nam quidem sint sapiente quam voluptatum nisi aspernatur nobis animi! Libero."</blockquote>
+                                    <h3 class="text-first-color">Nombre del cliente 3</h3>
+                                    <h6>Puesto del cliente</h6>
+                                </li>    
+                                <li class="slide">
+                                    <img class="avatar" src="assets/customer-2.jpg" alt="cliente 4">
+                                    <blockquote>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi tempore, eaque et voluptates dolorum blanditiis officia, aliquid perferendis dolores nam quidem sint sapiente quam voluptatum nisi aspernatur nobis animi! Libero."</blockquote>
+                                    <h3 class="text-first-color">Nombre del cliente 4</h3>
+                                    <h6>Puesto del cliente</h6>
+                                </li>                           
+                               
+                           
+                                
+                            </ul>
+                            <aside class="slides-nav">
+                                <label for="slide-1" id="dot-1"></label>
+                                <label for="slide-2" id="dot-2"></label>
+                                <label for="slide-3" id="dot-3"></label>
+                                <label for="slide-4" id="dot-4"></label>
+                           </aside>
+
+
+                        </article>
+                    </div>
+                    
+                </div>
+            </aside>
+
+        </article>
+    </section>
+    <section id="contacto" class="contact section"> 
+        <div class="container">
+            <h2 class="section-title">Contactame</h2>
+            <article class="contact-cards">
+                <aside class="contact-card box-shadow-1">
+                    <svg width="37" height="28" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.5 7.3125L7 16.8125V27C7 27.5625 7.4375 28 8 28H15C15.5 28 15.9375 27.5625 15.9375 27V21C15.9375 20.5 16.4375 20 16.9375 20H20.9375C21.5 20 21.9375 20.5 21.9375 21V27C21.9375 27.5625 22.4375 28 22.9375 28H30C30.5 28 31 27.5625 31 27V16.75L19.4375 7.3125C19.3125 7.1875 19.125 7.125 19 7.125C18.8125 7.125 18.625 7.1875 18.5 7.3125ZM36.6875 13.75L31.5 9.4375V0.8125C31.5 0.375 31.125 0.0625 30.75 0.0625H27.25C26.8125 0.0625 26.5 0.375 26.5 0.8125V5.3125L20.875 0.6875C20.375 0.3125 19.6875 0.0625 19 0.0625C18.25 0.0625 17.5625 0.3125 17.0625 0.6875L1.25 13.75C1.0625 13.875 0.9375 14.125 0.9375 14.3125C0.9375 14.5 1.0625 14.6875 1.125 14.8125L2.75 16.75C2.875 16.9375 3.0625 17 3.3125 17C3.5 17 3.6875 16.9375 3.8125 16.8125L18.5 4.75C18.625 4.625 18.8125 4.5625 19 4.5625C19.125 4.5625 19.3125 4.625 19.4375 4.75L34.125 16.8125C34.25 16.9375 34.4375 17 34.625 17C34.875 17 35.0625 16.9375 35.1875 16.75L36.8125 14.8125C36.9375 14.6875 37 14.5 37 14.3125C37 14.125 36.875 13.875 36.6875 13.75Z" fill="#D90062"/>
+                        </svg>
+                        <h5>UBICACIÓN</h5>
+                        <small>México, México</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.8125 1.5625L25.3125 0.0625C24.625 -0.125 23.875 0.25 23.5625 0.9375L20.5625 7.9375C20.3125 8.5625 20.5 9.25 21 9.6875L24.8125 12.8125C22.5625 17.5625 18.625 21.5625 13.75 23.875L10.625 20.0625C10.1875 19.5625 9.5 19.375 8.875 19.625L1.875 22.625C1.1875 22.9375 0.875 23.6875 1 24.375L2.5 30.875C2.6875 31.5625 3.25 32 4 32C20 32 33 19.0625 33 3C33 2.3125 32.5 1.75 31.8125 1.5625Z" fill="#D90062"/>
+                        </svg>
+                        <h5>TÉLEFONO</h5>
+                        <small><a href="tel:2461105719"></a> (+521) 24 6110 5719</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z" fill="#D90062"/>
+                        </svg>
+                        <h5>E-MAIL</h5>
+                        <small><a href="mailto:eslebanperez@gmail.com"></a> eslebanperez@gmail.com</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z"/></svg>
+                        <h5>SOCIAL MEDIA</h5>
+                        <small class="social-media">
+                            <a href="#" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.593,7.203c-0.23-0.858-0.905-1.535-1.762-1.766C18.265,5.007,12,5,12,5S5.736,4.993,4.169,5.404	c-0.84,0.229-1.534,0.921-1.766,1.778c-0.413,1.566-0.417,4.814-0.417,4.814s-0.004,3.264,0.406,4.814	c0.23,0.857,0.905,1.534,1.763,1.765c1.582,0.43,7.83,0.437,7.83,0.437s6.265,0.007,7.831-0.403c0.856-0.23,1.534-0.906,1.767-1.763	C21.997,15.281,22,12.034,22,12.034S22.02,8.769,21.593,7.203z M9.996,15.005l0.005-6l5.207,3.005L9.996,15.005z"/></svg>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809	c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793	c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05	c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032	c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028	c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22	c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"/></svg>
+                            </a>
+                            
+                            <a href="#" target="_blank" rel="noopener">
+                                <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.85156 1.48047C7.9707 0.578125 6.76758 0.0625 5.47852 0.0625C2.85742 0.0625 0.708984 2.21094 0.708984 4.83203C0.708984 5.69141 0.945312 6.50781 1.35352 7.2168L0.6875 9.6875L3.20117 9.04297C3.91016 9.4082 4.68359 9.62305 5.47852 9.62305C8.12109 9.62305 10.3125 7.47461 10.3125 4.85352C10.3125 3.56445 9.75391 2.38281 8.85156 1.48047ZM5.47852 8.80664C4.76953 8.80664 4.08203 8.61328 3.45898 8.24805L3.33008 8.16211L1.82617 8.57031L2.23438 7.10938L2.12695 6.95898C1.74023 6.31445 1.52539 5.58398 1.52539 4.83203C1.52539 2.66211 3.30859 0.878906 5.5 0.878906C6.55273 0.878906 7.54102 1.28711 8.29297 2.03906C9.04492 2.79102 9.49609 3.7793 9.49609 4.85352C9.49609 7.02344 7.66992 8.80664 5.47852 8.80664ZM7.66992 5.8418C7.54102 5.77734 6.96094 5.49805 6.85352 5.45508C6.74609 5.41211 6.66016 5.39062 6.57422 5.51953C6.50977 5.62695 6.27344 5.90625 6.20898 5.99219C6.12305 6.05664 6.05859 6.07812 5.95117 6.01367C5.24219 5.66992 4.79102 5.39062 4.31836 4.5957C4.18945 4.38086 4.44727 4.40234 4.66211 3.95117C4.70508 3.86523 4.68359 3.80078 4.66211 3.73633C4.64062 3.67188 4.38281 3.0918 4.29688 2.85547C4.18945 2.61914 4.10352 2.64062 4.01758 2.64062C3.95312 2.64062 3.86719 2.64062 3.80273 2.64062C3.7168 2.64062 3.58789 2.66211 3.48047 2.79102C3.37305 2.91992 3.07227 3.19922 3.07227 3.7793C3.07227 4.38086 3.48047 4.93945 3.54492 5.02539C3.60938 5.08984 4.38281 6.29297 5.58594 6.80859C6.33789 7.15234 6.63867 7.17383 7.02539 7.10938C7.24023 7.08789 7.71289 6.83008 7.82031 6.55078C7.92773 6.27148 7.92773 6.03516 7.88477 5.99219C7.86328 5.92773 7.77734 5.90625 7.66992 5.8418Z" fill="#333333"/>
+                                    </svg>                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624	C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003	c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"/><circle cx="16.806" cy="7.207" r="1.078"/><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42	c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111	c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71	c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45	c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633	c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311	c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311	c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654	c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712	c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055	c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669	c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"/></svg>
+                            </a>
+
+                        </small>
+                </aside>
+            </article>
+            <form class="contact-form box-shadow-1">
+                <h2 class="section-title">Haz tu pedido</h2>
+                <input type="text" name="name" placeholder="Ingresa tu nombre *" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" autocomplete="off" required>
+                <input type="email" name="correo" placeholder="Ingresa tu correo *" title="Email Incorecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" autocomplete="off" required>
+                <input type="text" name="direction" placeholder="Ingresa tu dirección *" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" autocomplete="off" required>
+                <input type="tel" name="telephone" placeholder="Ingresa tu telefono *"  autocomplete="off" required>
+                <input type="date" name="fecha'entrega" placeholder="Ingresa la fecha de entrega *"  autocomplete="off" min="2022-06-03" max="2022-12-31" required>
+                <input type="time" name="time" placeholder="Ingresa la hora *"  autocomplete="off" required>
+                
+                <div class="container">
+                    
+                    <h2 class="section-title">Sabor del pan</h2>
+                    <div>
+                        <input type="radio" id="vainilla" name="contact" value="vainilla">
+                        <label for="vainilla">Vainilla </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="chocolate" name="contact" value="chocolate">
+                        <label for="chocolate">Chocolate</label>
+                    </div>
+                    <div>    
+                        <input type="radio" id="fresa" name="contact" value="fresa">
+                        <label for="fresa">Fresa</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="redVelvet"name="contact" value="redVelvet">
+                        <label for="redVelvet">Red Velvet</label>
+                    </div>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">Relleno de sabor</h2>
+                    <div>
+                        <input type="checkbox" id="capuchino" name="interest" value="capuchino">
+                        <label for="capuchino">Capuchino</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="nutella" name="interest" value="nutella">
+                        <label for="nutella">Nutella</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tresLeches" name="interest" value="tresLeches">
+                        <label for="tresLeches">Tres Leches</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chocoFlan" name="interest" value="chocoFlan">
+                        <label for="chocoFlan">Choco flan</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="frutosRojos" name="interest" value="frutosRojos">
+                        <label for="frutosRojos">Frutos rojos</label>
+                    </div>
+                    <div>        
+                        <input type="checkbox" id="chocolate" name="interest" value="chocolate">
+                        <label for="chocolate">Chocolate</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="cajeta" name="interest" value="cajeta">
+                        <label for="cajeta">Cajeta</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="quesoZarzamora" name="interest" value="quesoZarzamora">
+                        <label for="quesoZarzamora">Queso con Zarzamora</label>
+                    </div>
+                     
+                  </div>
+                  <div class="decorations container">
+                    <h2 class="section-title">Decoraciones</h2>
+                    <label><input type="checkbox" id="checkMermelada" value="mermelada"> Caramelo suave</label></td>
+                 
+                    <div>
+                        <input type="checkbox" id="capuchino" name="interest" value="capuchino">
+                        <label for="capuchino">Fondant</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="nutella" name="interest" value="nutella">
+                        <label for="nutella">Betun</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="tresLeches" name="interest" value="tresLeches">
+                        <label for="tresLeches">Chispas de colores</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="chocoFlan" name="interest" value="chocoFlan">
+                        <label for="chocoFlan">Vela</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="frutosRojos" name="interest" value="frutosRojos">
+                        <label for="frutosRojos">Figuras de accion</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="chocolate" name="interest" value="chocolate">
+                        <label for="chocolate">Flores artificiales</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="cajeta" name="interest" value="cajeta">
+                        <label for="cajeta">Figuras de fondant</label>
+                    </div>
+                    <div>    
+                        <input type="checkbox" id="quesoZarzamora" name="interest" value="quesoZarzamora">
+                        <label for="quesoZarzamora">Chispas de chocolate</label>
+                    </div>
+                    
+                </table>
+                  </div>
+
+                  <textarea name="comments" id="" cols="50" rows="10" placeholder="Ingresa detalles adicionales *" required></textarea>
+
+                <div class="contact-form-loader text-center none">
+                    <img src="assets/loader.svg" alt="Enviando">
+                </div>
+                <input class="btn contact-form" type="submit" value="REALIZAR PEDIDO">
+               
+            </form>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <small>Sitio Diseñado por <a href="https://twitter.com/EslebanPerez" target="blank" rel="noopener">@EslebanPerez</a></small>
+    </footer>
+    <script src="script.js"></script>    
+    
+</body>
+</html>
